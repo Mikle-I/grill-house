@@ -33,6 +33,19 @@ align-items: center;
     height: 600px;
     background-image:url(/img/BackgroundSlider.png);
     display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.slider__obertka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 9%;
+    padding-left: 85px;
+    
+    
 }
 
 .slider__h{
@@ -63,4 +76,25 @@ align-items: center;
     background-color: #e1b73800;
     color: white;
     margin-top: 15px;
+    z-index: 5;
+}
+.slider__text{
+font-size: 43px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Open Sans";
+z-index: 5;
+}
+
+.slider__img1{
+    position: absolute;
+left: 132px;
+top: 230px;
+z-index: 1;
+
+}
+.slider__img2{
+    position: absolute;
+left: 1150px;
+top: 230px;
 }
