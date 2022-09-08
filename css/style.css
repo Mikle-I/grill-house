@@ -35,6 +35,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-content: center;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
 }
 .slider__obertka{
     display: flex;
@@ -129,4 +130,31 @@ top: 230px;
     transform: rotate(45deg);
     display: inline-block;
     transition: 1s;
+}
+
+
+.menu{
+    width: 1420px;
+    height:990px;
+    background:url(/img/Background__Menu.png);
+    margin-top: 60px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+}
+.menu__h{
+    
+    font-size: 63px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Fjalla One";
+    text-align: center;
+    text-shadow:5px 8px 10px rgb(3, 3, 3); color:rgb(248, 240, 240);
+}
+.menu__img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+    
 }
