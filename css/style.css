@@ -88,16 +88,18 @@ z-index: 5;
 }
 
 .slider__img1{
-    position: absolute;
-left: 132px;
-top: 230px;
-z-index: 1;
+   
+position:absolute;
+margin-left: -495px;
+margin-top: -60px;
+z-index: 1; 
 
 }
 .slider__img2{
     position: absolute;
-left: 1150px;
-top: 230px;
+margin-left: 464px;
+margin-top: -60px;
+
 }
 .slider__button--1, .slider__button--2, .slider__button--3{
     border: #e1b838 3px solid;
@@ -141,6 +143,7 @@ top: 230px;
     box-shadow: 0 0 30px rgba(0,0,0,0.7);
     display: flex;
     flex-direction: column;
+    box-shadow: -450px -5px 120px -13px rgba(0, 0, 0, 0.4) inset;
 }
 .menu__h{
     
@@ -200,4 +203,221 @@ top: 230px;
     flex-wrap: wrap;
     justify-content: space-around;
 
+}
+.sales{
+    width: 1420px;
+    height:720px;
+    background:url(/img/Background\ sales.png);
+    margin-top: 60px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px -161px 33px -5px rgba(3, 3, 3, 0.39) inset;
+}
+.sales__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content:space-between;
+}
+.sales h3{
+    font-size: 54px;
+    color: #e1b838;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: right;
+   
+}
+.sales__button{
+ font-size: 27px;
+ color: #262626;
+ font-weight: 400;
+ background-color: #e1b838;
+ border-radius: 5px;
+ width: 190px;
+ height: 40px;
+ text-align: center;
+ margin-top: -20px;
+ margin-bottom: 76px;
+
+}
+.sales__text--little{
+font-size: 34px;
+letter-spacing: 1px;
+color: #e1b838;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: right;
+filter: drop-shadow(1.389px 7.878px 9px rgba(0,0,0,0.78));
+}
+
+.specialOffer{
+    width: 1420px;
+    height:820px;
+    background:url(/img/Background__Menu.png);
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    margin-top: 60px;
+    
+}
+
+.specialOffer__cart{
+    width: 545px;
+    height: 200px;
+    border: #e1b838 3px solid; 
+}
+.specialOffer__cart h3{
+    background-color: #e1b838;
+    width: 546px;
+    height: 70px;
+    font-size: 41px;
+    letter-spacing: 1px;
+    color: #262626;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: 0px;
+    margin-left: -1px;
+    padding-top: 10px;
+}
+.specialOffer__cart p{
+    font-size: 41px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    }
+
+.specialOffer__text{
+    width: 580px;
+    font-size: 29px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-left: 80px;
+}
+.specialOffer__flex{
+    display: flex;
+    margin-top: 82px;
+    margin-left: 35px;
+}
+.specialOffer__img1{
+    position: absolute;
+    margin-top: 50px;
+}
+.specialOffer__img2{
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 150px;
+}
+.specialOffer__img3{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: -40px;
+}
+
+.method{
+    width: 1420px;
+    height:885px;
+    background:url(/img/BackgroundMetod.png);
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    margin-top: 170px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+   
+    
+}
+.method__cart{
+    width: 590px;
+    height: 350px;
+    border: #e1b838 8px solid; 
+    margin-right: 50px;
+    
+    
+}
+.method__cart--h{
+    font-size: 58px;
+    letter-spacing: 1px;
+    color: #262626;
+    font-weight: 800;
+    font-family: "Open Sans";
+    background-color: #e1b838;
+    margin-top: 0px;
+}
+.method__cart p{
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: left;
+}
+.method__img{
+    position: absolute;
+    margin-top: -360PX;
+    margin-left: -770PX;
+    
+}
+
+
+.music{
+    width: 1420px;
+    height:885px;
+    background:url(/img/Backgroundmusic.png);
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 60px;
+    
+}
+.music__img{
+    width: 1420px; 
+    position: absolute;
+    margin-top: 437px;
+    
+}
+
+.music__cart{
+    width: 495px;
+    height: 310px;
+    border: #e1b838 8px solid; 
+    margin-right: 50px;
+    margin-top: 115px;
+    margin-left: 155px;
+    
+}
+.music__cart--h{
+    font-size: 59px;
+    color: #262626;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e1b838;
+}
+.music__cart p{
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.music__text{
+font-size: 42px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Open Sans";
+margin-top: 270px;
+margin-left: 50px;
+}
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
 }
