@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
 background-color: #262626;
 display: flex;
@@ -10,8 +13,6 @@ a:hover,
 a  {
   text-decoration: none;
   color: #262626;
-  scroll-behavior: smooth;
-
 }
 a{
     color: #e1b838;  
@@ -23,6 +24,8 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+
+   
 }
 .main-nav__ul{
     display: flex;
@@ -193,6 +196,29 @@ margin-top: -60px;
     margin-top: -50px;
     
 }
+
+.menu__img--animation:hover{
+    animation: 3s linear 0s normal none infinite running rot;
+    -webkit-animation: 5s linear 0s normal none infinite running rot;
+    
+}
+
+@keyframes menu__img--animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 .menu__card{
     width: 360px;
     height: 215px;
