@@ -17,7 +17,6 @@ a {
   color: #e1b838;
 }
 .main-nav {
-  width: 1440px;
   height: 225px;
   display: flex;
   flex-direction: row;
@@ -25,6 +24,7 @@ a {
   justify-content: space-evenly;
 }
 .main-nav__ul {
+  margin-left: 15px;
   display: flex;
   flex-direction: row;
   color: #e1b838;
@@ -60,7 +60,7 @@ a {
 }
 
 .slider {
-  width: 1420px;
+  width: 100%;
   height: 600px;
   background-image: url(/img/BackgroundSlider.png);
   display: flex;
@@ -124,8 +124,9 @@ a {
 }
 .slider__img2 {
   position: absolute;
-  margin-left: 464px;
+  margin-left: 385px;
   margin-top: -60px;
+  z-index: 1;
 }
 .slider__button--1,
 .slider__button--2,
@@ -163,7 +164,7 @@ a {
 }
 
 .menu {
-  width: 1420px;
+  width: 100%;
   height: 990px;
   background: url(/img/Background__Menu.png);
   margin-top: 60px;
@@ -252,7 +253,7 @@ a {
   justify-content: space-around;
 }
 .sales {
-  width: 1420px;
+  width: 100%;
   height: 720px;
   background: url(/img/Background\ sales.png);
   margin-top: 60px;
@@ -298,7 +299,7 @@ a {
 }
 
 .specialOffer {
-  width: 1420px;
+  width: 100%;
   height: 820px;
   background: url(/img/Background__Menu.png);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
@@ -353,17 +354,17 @@ a {
 }
 .specialOffer__img2 {
   position: absolute;
-  margin-left: 880px;
+  margin-left: 870px;
   margin-top: 150px;
 }
 .specialOffer__img3 {
   position: absolute;
-  margin-left: 980px;
-  margin-top: -40px;
+  margin-left: 900px;
+  margin-top: -50px;
 }
 
 .method {
-  width: 1420px;
+  width: 100%;
   height: 885px;
   background: url(/img/BackgroundMetod.png);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
@@ -402,7 +403,7 @@ a {
 }
 
 .music {
-  width: 1420px;
+  width: 100%;
   height: 885px;
   background: url(/img/Backgroundmusic.png);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
@@ -411,7 +412,7 @@ a {
   margin-bottom: 60px;
 }
 .music__img {
-  width: 1420px;
+  width: 100%;
   position: absolute;
   margin-top: 437px;
 }
