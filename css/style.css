@@ -190,6 +190,20 @@ a:hover {
     align-items: center;
     border: none;
   }
+  .slider__img1 {
+    width: 25%;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 330px;
+  }
+  .slider__img2 {
+    width: 20%;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 345px;
+  }
 }
 .slider {
   width: 100%;
